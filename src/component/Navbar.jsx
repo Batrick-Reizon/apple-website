@@ -66,7 +66,7 @@ function Navbar() {
                 <FaBars className="flex sm:hidden cursor-pointer" onClick={() => setmenu(true)}></FaBars>
             </div>
         </div>
-        {<div className="bg-gray-900 fixed top-0 right-0 text-white w-1/2 h-screen transition-all ease-in-out duration-1000 p-5" style={{top: menu ? "0%" : "-1600%"}}>
+        {<div className="bg-gray-900 fixed top-0 right-0 text-white w-1/2 h-screen transition-all ease-in-out duration-1000 p-5" style={{right: menu ? "0%" : "-50%"}}>
             <div className="flex justify-end py-3"><FaXmark className="hover:text-red-600" onClick={() => setmenu(false)}></FaXmark></div>
             <ul>
                 {navLink.map((data, index) => {
