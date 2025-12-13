@@ -53,7 +53,7 @@ function Buttonsection() {
                     <h1 className="text-3xl font-bold">{data.name}</h1>
                     <h4 className="font-semibold mx-5">{data.sub}</h4>
                     <div className="mt-1 space-x-5 pb-3">
-                        <button className="bg-black hover:bg-white text-white hover:text-black py-1 px-3 transition-all ease-in-out duration-500 rounded-2xl border border-white border-solid">{data.btn1}</button>
+                        <button className="bg-black hover:bg-white text-white hover:text-black py-1 px-3 transition-all ease-in-out duration-500 rounded-2xl border border-black border-solid">{data.btn1}</button>
                         <button className="bg-blue-500 hover:bg-white text-white hover:text-blue-500 py-1 px-3 transition-all ease-in-out duration-500 rounded-2xl border border-blue-600 border-solid">{data.btn2}</button>
                     </div>
                     <div>
